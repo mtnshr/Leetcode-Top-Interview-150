@@ -10,10 +10,7 @@ class Solution {
             if (i == endOfRange) {
                 jumps++;
                 endOfRange = maxReach;
-                // If we can reach or pass the last index, stop counting
-                if (endOfRange >= nums.length - 1) {
-                    break;
-                }
+                // Remove the break: the loop naturally terminates after i reaches the last index
             }
         }
         return jumps;
