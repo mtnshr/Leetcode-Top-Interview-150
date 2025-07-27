@@ -5,12 +5,14 @@ class Solution {
         int endOfRange = 0; // the end of the current jump range
 
         for (int i = 0; i < nums.length - 1; i++) {
-            maxReach = Math.max(maxReach, i + nums[i]);
+            // Update maxReach with a simple condition
+            if (i + nums[i] > maxReach) {
+                maxReach = i + nums[i];
+            }
             // When we've reached the end of the current range, need to jump again
             if (i == endOfRange) {
                 jumps++;
                 endOfRange = maxReach;
-                // Remove the break: the loop naturally terminates after i reaches the last index
             }
         }
         return jumps;
