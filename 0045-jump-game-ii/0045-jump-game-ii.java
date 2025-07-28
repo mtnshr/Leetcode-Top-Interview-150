@@ -5,7 +5,7 @@ class Solution {
         int endOfRange = 0; // the end of the current jump range
 
         for (int i = 0; i < nums.length - 1; i++) {
-            // Update maxReach with a simple condition
+            // Update maxReach 
             if (i + nums[i] > maxReach) {
                 maxReach = i + nums[i];
             }
