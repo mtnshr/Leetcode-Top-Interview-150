@@ -13,6 +13,7 @@ LeetCode problem i solved and passed tests
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0189-rotate-array](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0189-rotate-array) |
+| [0274-h-index](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0274-h-index) |
 ## Two Pointers
 |  |
 | ------- |
@@ -23,6 +24,7 @@ LeetCode problem i solved and passed tests
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0088-merge-sorted-array) |
+| [0274-h-index](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0274-h-index) |
 ## Math
 |  |
 | ------- |
@@ -40,4 +42,8 @@ LeetCode problem i solved and passed tests
 | [0045-jump-game-ii](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/mtnshr/Leetcode-Top-Interview-150/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
