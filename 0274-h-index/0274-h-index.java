@@ -10,9 +10,9 @@ class Solution {
         }
 
         //Fill the array counts with each citation's instances frequency
-        for (int j = 0; j <= n-1; j++) {
-            if (citations[j] < n) {
-                counts[citations[j]]++;
+        for (int i = 0; i <= n-1; i++) {
+            if (citations[i] < n) {
+                counts[citations[i]]++;
             } else { 
                 counts[n]++;
             }
@@ -20,11 +20,11 @@ class Solution {
         int sum = 0;
 
         // Check what's the maximum H index.
-        for (int k = n; k >= 0 ; k--) {
-            sum = sum + counts[k];
-            if (sum >= k) {
-                HIndex = k;
-                k = -1;
+        for (int i = n; i >= 0 ; i--) {
+            sum = sum + counts[i];
+            if (sum >= i) {
+                HIndex = i;
+                i = -1;
             }
         }
         return HIndex;
